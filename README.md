@@ -1,22 +1,42 @@
-<<<<<<< HEAD
-# Tkinter_Learning
+# Tour Management System (Tkinter | In-Memory)
 
-## Offline Personal Expense Manager
+## 📌 Description
+This is a desktop-based Tour Management System built using Python and Tkinter.
+All data is stored temporarily in memory (no files, no database).
 
-Run the app:
+## 🛠 Technologies
+- Python 3.x
+- Tkinter
+- Object-Oriented Programming
 
-1. Open a terminal in this repository.
-2. Run `python offline_expense_manager/main.py`.
+## ✨ Features
+- Admin login
+- Tour management (CRUD)
+- Customer management
+- Booking system
+- Seat availability validation
 
-Data is stored locally in `offline_expense_manager/data/transactions.json` and is created automatically on first run.
-=======
+## ▶️ How to Run
+```bash
+python tour_management_system/main.py
+```
 
-# Tkinter_Learning
-import tkinter as tk
+## 🔑 Login Credentials
 
+Username: admin
 
-root = tk.Tk()
-#Widgets are added here
+Password: admin123
 
-root.mainloop()
->>>>>>> c073c8241a35159ba6a5c2bf63034126241da242
+## ⚠️ Note
+
+All data is lost when the application is closed.
+
+## 🚀 Future Enhancements
+
+File storage
+
+Database support
+
+Search & filters
+
+Reports
